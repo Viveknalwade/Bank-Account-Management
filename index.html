@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bank Account Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bank Account Management</h1>
+
+    <div class="balance" id="balanceDisplay">Current balance: $0</div>
+
+    <div class="controls">
+      <input type="number" id="amountInput" placeholder="Enter amount" />
+      <button id="depositBtn">Deposit</button>
+      <button id="withdrawBtn">Withdraw</button>
+      <button id="resetBtn">Reset Account</button>
+    </div>
+
+    <div class="messages" id="messageDisplay"></div>
+
+    <div class="transactions">
+      <h2>Deposits</h2>
+      <div id="depositList">Deposits: </div>
+
+      <h2>Withdrawals</h2>
+      <div id="withdrawList">Withdrawals: </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
